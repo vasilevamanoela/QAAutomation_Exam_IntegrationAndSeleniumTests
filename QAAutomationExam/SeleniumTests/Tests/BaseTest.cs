@@ -17,7 +17,5 @@ namespace POMHomework.Tests._01GoogleSearch
 
             Driver.WrappedDriver.Manage().Window.Maximize();
         }
-
-        //some changes locally and in GitHub
     }
 }
