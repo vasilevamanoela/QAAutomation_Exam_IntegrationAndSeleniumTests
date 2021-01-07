@@ -37,11 +37,6 @@ namespace QAAutomationExam.SeleniumTests.Tests.Navigation
             _navigationPage.NavigateToWidgetsSubsection(subsectionName);
 
             _navigationPage.AssertCorrectSubsectionTitles(subsectionName, _navigationPage.PageHeader);
-
-            for (int i = 0; i < 10; i++)
-            {
-                // some logic here
-            }
         }
     }
 }
